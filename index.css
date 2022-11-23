@@ -1,0 +1,102 @@
+/* Your CSS goes here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.head {
+    padding: 10px 90px;
+}
+
+header,footer{
+    background-color:#455070;
+    color: #fefeff;
+}
+
+.head nav{
+    float: right;
+    margin-top: -25px;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: #fefeff;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    
+    color: red;
+}
+
+#details {
+    background-color: #E6834C;
+    text-align: center;
+    padding: 100px;
+    font-size: 1.5rem;
+    color: #fefeff;
+    letter-spacing: 2px;
+}
+
+#details-p {
+    letter-spacing: 4px;
+    font-size: 1.5rem;
+}
+
+#about {
+    background-color: #F0F4FF;
+    margin: 30px;
+    padding: 30px;
+}
+
+#about h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#about p {
+    text-align:justify;
+    margin: 0 30px;
+    padding-bottom: 30px;
+    line-height: 1.5rem;
+}
+
+#menu,  #catering-contact {
+    margin: 20px;
+    
+}
+
+#menu h3, #catering-contact h3 {
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#menu-1, #menu-2, #cat, #address {
+    width: 45%;
+    display: inline-block;
+    text-align: justify;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+#address {
+    text-align: center;
+}
+
+#copyright-p {
+    padding: 3px;
+    text-align: center;
+    background-color: #E6834C;
+}

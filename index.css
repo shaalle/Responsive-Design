@@ -101,23 +101,8 @@ a:active {
     background-color: #E6834C;
 }
 
-/* Mobile Responsive Design */
-@media (max-width:500px) {
-    .head h2 {
-        margin-top: -60px;
-        color: #333;
-        text-align: center;
-
-    }
-    .head {
-        margin-top: 100px;
-        padding: 50px;
-        display: flex;
-    }
-
-    .head nav{
-        
-        
-    
+@media only screen and (max-width:700px){
+    body{
+        background-color: green;
     }
 }
